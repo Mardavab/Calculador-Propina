@@ -1,0 +1,13 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.recuadro {
+    background-color: #3b7bdb   ; 
+    border: 2px solid #0a58ca  ; /* Borde sólido de color gris */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.recuadro:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada al pasar el ratón */
+}
